@@ -1,0 +1,64 @@
+/* very simple responsive styles for beginner project */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+  line-height: 1.4;
+}
+
+/* container to center content */
+#parent, .app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form div {
+  margin-bottom: 0.6rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 0.6rem;
+}
+
+/* table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* small screen tweaks */
+@media (max-width: 600px) {
+  body {
+    margin: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
+
